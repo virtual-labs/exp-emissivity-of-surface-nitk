@@ -1,1 +1,1 @@
-To determine the emissivity of a gray surface using emissivity measurement apparatus
+To determine the emissivity of a gray surface using emmisivity measurement apparatus
