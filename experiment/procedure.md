@@ -1,6 +1,6 @@
 #### These procedure steps will be followed on the simulator
 
-1. •	The following window appears after clicking on the simulation link.  
+1. The following window appears after clicking on the simulation link.  
 
 ![alt text](images/1.png)<br>
 
