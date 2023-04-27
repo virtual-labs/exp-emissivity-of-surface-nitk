@@ -1,4 +1,5 @@
 ## INTRODUCTION
+<br>
 
 #### User Objectives and Goals:
 
@@ -6,17 +7,17 @@
 
 2)To determine the emissivity of the test slab
 
+
+
 #### Theory
 
 When heat is supplied at a constant rate to a body, heat loss takes place by conduction, convection and radiation. If two bodies of the same geometry are heated under identical conditions as shown in Fig 1 and Fig 2, the heat loss by conduction and convection can be assumed to be same for both the bodies.
-
 <center>
 
 <br>![alt text](images/4.png)<br>
 Fig 1. Experimental setup of Emmisivity measurement apparatus
 <br>![alt text](images/5.png)<br>
 Fig 2. Schematic representation of Emmisivity measurement apparatus
-
 </center>
 
 <br>The heat loss by radiation depends on:
@@ -31,6 +32,9 @@ A<sub>1</sub> = surface area (m<sup>2</sup>)<br>
 ϵ<sub>1</sub> = emissivity<br>
 T<sub>1</sub> = surface temperature of the body (K)<br>
 T<sub>2</sub> = surrounding atmospheric temperature (K)
+
+
+
 
 #### Equations/formulas:
 
