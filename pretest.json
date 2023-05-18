@@ -1,0 +1,82 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following statement is correct?",
+      "answers": {
+        "a": "A grey body is one which absorbs all radiations incident on it.",
+        "b": "At thermal equilibrium, the emissivity and absorptivity are same.",
+        "c": "The energy absorbed by a body to the total energy falling on it, is called emissivity.",
+        "d": "A perfect body is one which is black in colour."
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The body which absorbs all radiations incident upon it, is called as",
+      "answers": {
+        "a": "Black body",
+        "b": "White body",
+        "c": "Opaque body",
+        "d": "Transparent body"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Emissivity is the measure of an object's ability to absorb, transmit and emit infrared energy.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the equivalent emissivity for radiant heat exchange between a small body (emissivity = 0.4) in a very large enclosure (emissivity = 0.5)?",
+      "answers": {
+        "a": "0.52",
+        "b": "0.4",
+        "c": "0.23",
+        "d": "0.1"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "When heat is supplied at a constant rate to a body, heat loss takes place by conduction, convection and radiation.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The total radiation from a black body per second per unit area is ________ fourth power of the absolute temperature. This statement is known as Stefan Boltzmann law.",
+      "answers": {
+        "a": "Equal to",
+        "b": "Directly proportional to",
+        "c": "Inversely proportional to",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The amount of radiation mainly depends upon the",
+      "answers": {
+        "a": "Nature of the body",
+        "b": "Temperature of the body",
+        "c": "Type of surface of the body",
+        "d": "All of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The emissivity for a black body is",
+      "answers": {
+        "a": "0",
+        "b": "0.5",
+        "c": "0.75",
+        "d": "1"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Emissivity is the ratio of the thermal radiation emitted by a surface to the radiation emitted by an _________ at the same temperature.",
+      "answers": {
+        "a": "Ideal gray surface",
+        "b": "Ideal black surface",
+        "c": "Both a & b",
+        "d": "None of the above "
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Emissivity is a highly material-dependent surface property,  which defines  the material's capacity to emit energy.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
