@@ -10,10 +10,10 @@
         "d": "None of these"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). Stefan Boltzmann law states that the total radiation from a black body per second per unit area is directly proportionate to fourth power of the absolute temperature.",
+        "b": "Correct, the right answer is (b). Stefan Boltzmann law states that the total radiation from a black body per second per unit area is directly proportionate to fourth power of the absolute temperature.",
+        "c": "The right answer is (b). Stefan Boltzmann law states that the total radiation from a black body per second per unit area is directly proportionate to fourth power of the absolute temperature.",
+        "d": "The right answer is (b). Stefan Boltzmann law states that the total radiation from a black body per second per unit area is directly proportionate to fourth power of the absolute temperature."
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
@@ -27,10 +27,10 @@
         "d": "All of these"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (d). The amount of radiation doesn't only depends upon the nature of the body, but also temperature of the body and type of surface of the body.",
+        "b": "The right answer is (d). The amount of radiation doesn't only depends upon the temperature of the body, but also nature of the body and type of surface of the body.",
+        "c": "The right answer is (d). The amount of radiation doesn't only depends upon the type of surface of the body, but also temperature of the body and nature of the body.",
+        "d": "Correct, the right answer is (d). The amount of radiation mainly depends upon the nature of the body, type of surface of the body and the temperature of the body."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
@@ -44,10 +44,10 @@
         "d": "1"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (d). A body with an emissivity of zero is often referred to as a perfect reflector or a white body.",
+        "b": "The right answer is (d). A body with an emissivity of 0.5 is often referred to as a gray body. This means it absorbs and emits only half of the incident radiation compared to a perfect black body.",
+        "c": "The right answer is (d). For example, certain types of brick and fiberglass have an emissivity around 0.753.",
+        "d": "Correct, the right answer is (d). The emissivity of a perfect black body is 1."
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -61,23 +61,23 @@
         "d": "None of the above "
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). Emissivity is the ratio of the thermal radiation emitted by a surface to the radiation emitted by an Ideal black surface or perfect black surface at the same temperature.",
+        "b": "Correct, the right answer is (b). Emissivity is the ratio of the thermal radiation emitted by a surface to the radiation emitted by an Ideal black surface or perfect black surface at the same temperature.",
+        "c": "The right answer is (b). Emissivity is the ratio of the thermal radiation emitted by only a surface to the radiation emitted by an Ideal black surface or perfect black surface at the same temperature.",
+        "d": "The right answer is (b). Emissivity is the ratio of the thermal radiation emitted by a surface to the radiation emitted by an Ideal black surface or perfect black surface at the same temperature."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
     },
     {
-      "question": "Emissivity is a highly material-dependent surface property,  which defines  the material's capacity to emit energy.",
+      "question": "Emissivity is a highly material-dependent surface property, which defines the material's capacity to emit energy.",
       "answers": {
         "a": "True",
         "b": "False"
       },
       "explanations": {
-        "a": "",
-        "b": ""
+        "a": "Correct, the right answer is (a). Emissivity is indeed a highly material-dependent surface property. It defines the material's capacity to emit energy in the form of thermal radiation. Different materials have different emissivities, and this value can also vary based on factors such as temperature, wavelength, and angle of incidence.",
+        "b": "The right answer is (a). Emissivity is indeed a highly material-dependent surface property. It defines the material's capacity to emit energy in the form of thermal radiation. Different materials have different emissivities, and this value can also vary based on factors such as temperature, wavelength, and angle of incidence."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
