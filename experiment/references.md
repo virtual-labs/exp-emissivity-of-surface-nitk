@@ -8,6 +8,8 @@
     <ol>
     <li>Holman J. P., Heat Transfer, McGraw Hill Publication, 8th Edition, 1996.</li>
     <li>C. P. Arora, Engineering Heat Transfer, Khanna Publishers, India, 1996.</li>
+    <li><a href="https://www.youtube.com/watch?v=c7OhGJGaQ7U">Mod-03 Lec-22 Total Emissivity method</a></li>
+    <li><a href="https://www.youtube.com/watch?v=aPfyjVKRPjU">Lecture 52 : Tutorial on Emissivity, Absroptivity and Blackbody Radiation Functions</a></li>
     <td>Developer : Dr. K V Gangadharan | NITK</br></br>
     Contributors :
     <ul style="list-style-type: none;">
