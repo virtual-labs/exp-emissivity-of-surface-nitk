@@ -34,7 +34,8 @@ let time1 = 0;
 let time2 = 0;
 
 //point tracing section and initial(atmospheric section)
-let t1 = [ 26, 26, 27.1, 27.5, 26.5, 26.8];
+// let t1 = [ 26, 26, 27.1, 27.5, 26.5, 26.8];
+let t1 = [26, 26, 26, 26, 26, 26];
 let th = [55, 55, 55, 55, 55];
 let off = [0, 0, 0, 0, 0];
 let slope = [-282.86, -315.71, -354.29];
@@ -75,7 +76,8 @@ function displayDiv(ele) {
     if (temp2 == 1) {
       temp1 = 1;
       validation();
-      document.querySelector("#info").innerHTML = "Please enter a value rounded upto three decimal points";
+      document.querySelector("#info").innerHTML =
+        "Please enter a value rounded upto three decimal points";
     } else {
       document.querySelector("#info").innerHTML =
         "Perform the experiment to solve the questions";
@@ -87,11 +89,21 @@ function displayDiv(ele) {
 //Change in Variables with respect to time
 function varinit() {
   console.log(currentVoltage, vf);
-  if(time2 > 0){ t1[0] += off[0];};
-  if(time2 > 0){ t1[1] += off[1];};
-  if(time2 > 0){t1[2] += off[2];};
-  if(time2 > 0){t1[3] += off[3];};
-  if(time2 > 0){t1[4] += off[4];};
+  if (time2 > 0) {
+    t1[0] += off[0];
+  }
+  if (time2 > 0) {
+    t1[1] += off[1];
+  }
+  if (time2 > 0) {
+    t1[2] += off[2];
+  }
+  if (time2 > 0) {
+    t1[3] += off[3];
+  }
+  if (time2 > 0) {
+    t1[4] += off[4];
+  }
 
   vfspinner.textContent = vf;
   temperature1.textContent = t1[0].toFixed(2);
@@ -126,12 +138,10 @@ function simperiod() {
     temp1 = 0;
     temp2 = 1;
     watertemp();
-   
 
     ctx.clearRect(620, 485, 100, 50);
     // t1[6] = t1[6].toFixed(1);
     ctx.font = "15px Comic Sans MS";
-   
   } else {
     drawGradient();
     steadyState = 5 - Math.round(time1);
@@ -145,61 +155,70 @@ function simperiod() {
         ".comment"
       ).innerHTML = `The steady state is achieved
 `;
-btnReset.removeAttribute("disabled");
+      btnReset.removeAttribute("disabled");
     }
   }
 }
 //draw gradient w.r.t. time in thermometer water flow and heater
-function drawGradient(){
-  
+function drawGradient() {
   //cross sectional simulation
   var x = 260,
     y = 175,
     // Radii of the white glow.
-    innerRadius = .1*time1,
-    outerRadius = 20*time1,
+    innerRadius = 0.1 * time1,
+    outerRadius = 20 * time1,
     // Radius of the entire circle.
     radius = 50;
 
-var gradient = ctx.createRadialGradient(x, y, innerRadius, x, y, outerRadius);
-//gradient.addColorStop(0, 'white');
-gradient.addColorStop(0, 'red');
-gradient.addColorStop(1,"white");
+  var gradient = ctx.createRadialGradient(x, y, innerRadius, x, y, outerRadius);
+  //gradient.addColorStop(0, 'white');
+  gradient.addColorStop(0, "red");
+  gradient.addColorStop(1, "white");
 
-ctx.arc(260, 175, radius, 0, 100 * Math.PI);
+  ctx.arc(260, 175, radius, 0, 100 * Math.PI);
 
-ctx.fillStyle = gradient;
-ctx.fill();
+  ctx.fillStyle = gradient;
+  ctx.fill();
 
   // //thermometer heights add offset
-   if(time1 > 0){  th[0] += .8;};
-   if(time1 > 0){  th[1] += .75;};
-   if(time1 > 0){  th[2] += .6;};
-   if(time1 > 0){  th[3] += .65;}; 
-   if(time1 > 0){  th[4] += .4;};
-   //if(time1 > 2){  th[5] += .35;};
+  if (time1 > 0) {
+    th[0] += 0.8;
+  }
+  if (time1 > 0) {
+    th[1] += 0.75;
+  }
+  if (time1 > 0) {
+    th[2] += 0.6;
+  }
+  if (time1 > 0) {
+    th[3] += 0.65;
+  }
+  if (time1 > 0) {
+    th[4] += 0.4;
+  }
+  //if(time1 > 2){  th[5] += .35;};
 
-   //thermometers drawing
-    ctx.fillStyle = "black";
-    ctx.lineJoin = "round";
+  //thermometers drawing
+  ctx.fillStyle = "black";
+  ctx.lineJoin = "round";
 
-   //thermometer reading
-   ctx.beginPath();
-   ctx.fillRect(269, 492, 1.5, -th[0]);
-   ctx.fillRect(334.25, 492, 1.5, -th[1]);
-   ctx.fillRect(394.25, 492, 1.5, -th[2]);
-   ctx.fillRect(460,    492, 1.5, -th[3]);
-   ctx.fillRect(520, 492, 1.5, -th[4]);
-   //ctx.fillRect(525.25, 355, 1.5, -th[5]);
-   ctx.arc(261, 175, 50, 0, 2 * Math.PI);   
-   ctx.stroke();
-   ctx.beginPath();
-   ctx.arc(540, 175, 50, 0, 2 * Math.PI);
-   
-   ctx.stroke();
-    ctx.fillStyle = 'black';
-    ctx.arc(540, 175, radius, 0, 2 * Math.PI);
-    ctx.fill();
+  //thermometer reading
+  ctx.beginPath();
+  ctx.fillRect(269, 492, 1.5, -th[0]);
+  ctx.fillRect(334.25, 492, 1.5, -th[1]);
+  ctx.fillRect(394.25, 492, 1.5, -th[2]);
+  ctx.fillRect(460, 492, 1.5, -th[3]);
+  ctx.fillRect(520, 492, 1.5, -th[4]);
+  //ctx.fillRect(525.25, 355, 1.5, -th[5]);
+  ctx.arc(261, 175, 50, 0, 2 * Math.PI);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(540, 175, 50, 0, 2 * Math.PI);
+
+  ctx.stroke();
+  ctx.fillStyle = "black";
+  ctx.arc(540, 175, radius, 0, 2 * Math.PI);
+  ctx.fill();
 }
 
 // initial model
@@ -208,14 +227,15 @@ function drawModel() {
 
   var background = new Image();
   background.src = "./images//modelnew.png";
-  document.getElementsByClassName("comment1")[0].innerHTML="All temperature are in °C"
+  document.getElementsByClassName("comment1")[0].innerHTML =
+    "All temperature are in °C";
   // printcomment("All temperatures should be in kelvin", 0)
-  console.log("tem")
+  console.log("tem");
 
   // Make sure the image is loaded first otherwise nothing will draw.
   background.onload = function () {
     //550,400
-    ctx.drawImage(background,160, 75, 480, 460);
+    ctx.drawImage(background, 160, 75, 480, 460);
     ctx.clearRect(80, 300, 70, 110);
     ctx.font = "15px Comic Sans MS";
 
@@ -227,7 +247,7 @@ function comment1() {
   if (currentVoltage != 0) {
     time = 0;
     temp = 1;
-   
+
     clearInterval(simTimeId);
     //printcomment("start simulation", 0);
     if (currentVoltage == 5) {
@@ -319,7 +339,6 @@ function validation() {
   btnCheck2.addEventListener("click", () => validateAnswer2());
 }
 
-
 function validateAnswer2() {
   const correctAnswer = document.querySelector(".correct-answer2");
   const unit = document.querySelector(".question-unit2");
@@ -327,7 +346,9 @@ function validateAnswer2() {
   let userEnteredValue = Number(
     document.querySelector(".question-input2").value
   );
-  let answer = userEnteredValue === e ? true : false;
+  // let answer = userEnteredValue === e ? true : false;
+  let answer = validateNearToAnswer(e, userEnteredValue);
+
   if (!userEnteredValue) return;
   if (!answer) {
     correctAnswer.classList.remove("hide");
@@ -338,6 +359,19 @@ function validateAnswer2() {
     unit.innerHTML += " <span class='correct'>&#x2713;</span>";
   }
 }
+
+function validateNearToAnswer(exactAnswer, userAnswer) {
+  const tolerance = 0.01; // Define the tolerance level
+  const lowerBound = exactAnswer - tolerance;
+  const upperBound = exactAnswer + tolerance;
+
+  if (userAnswer < lowerBound || userAnswer > upperBound) {
+    return false; // Answer is outside the tolerance range
+  } else {
+    return true; // Answer is within the tolerance range
+  }
+}
+
 function resetAll() {
   btnStart.setAttribute("disabled", true);
   btnReset.setAttribute("disabled", true);
@@ -349,7 +383,7 @@ function resetAll() {
   // if (temp1 == 0) {
   temp2 = 0;
   temp1 = 2;
-  t1 = [26, 26, 27.1, 27.5, 26.5];
+  t1 = [26, 26, 26, 26, 26, 26]; // t1 = [26, 26, 27.1, 27.5, 26.5];
   th = [45, 45, 45, 45, 45];
   currentVoltage = 0;
   vf = 0;
