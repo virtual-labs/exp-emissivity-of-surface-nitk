@@ -32,6 +32,7 @@
       defer
       src="https://code.jquery.com/ui/1.8.17/jquery-ui.min.js"
     ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
     <script defer src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script defer src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script
@@ -185,7 +186,7 @@
                 </div>
                 <div class="task-screen practice hide">
                   
-                  <p id="info">Temperature Gradient</p>
+                  <!-- <p id="info">Temperature Gradient</p> -->
                   <div class="graph-div">
                     <div class="graph" id="graph" style="display: none;" ></div>
                   </div>
@@ -193,16 +194,16 @@
                     <!-- <p class="warning"> Please enter a value rounded upto three decimal points</p> -->
                     <div class="question-one">
                       <div id="formula">
-                        T<sub>b</sub> = (T<sub>1</sub> + T<sub>2</sub>)/2 K <br>
-                        T<sub>g</sub> = (T<sub>3</sub> + T<sub>4</sub>) K <br>
-                        T<sub>a</sub> = T<sub>5</sub>  K 
+                        <p>$$T_b = \frac{T_1 + T_2}{2}K$$ </p>
+                        <p>$$T_g = (T_3 + T_4)K$$ </p>
+                        <p>$$T_a = T_5K$$ </p>
                       </div>
                     
                     </div>
                     <div class="question-two">
                       <div class="question-title">Emissivity of test slab</div>
-                      <div class="question-formula">&isin; = <span style="font-size: large;" class="frac"><sup>Tb <sup>4</sup> - Ta<sup>4</sup></sup><span>&frasl;</span><sub>Tg<sup>4</sup> - Ta<sup>4</sup></sub></span></div>
-                      <p class="question-label">&isin; =  </p>
+                      <div class="question-formula">$$∈ = \frac{T_b^4 - T_a^4}{T_g^4 - T_a^4}$$ </div>
+                      <p class="question-label">$$∈ =$$  </p>
                       <input class="question-input question-input2" type="number"/>
                       <p class="question-unit question-unit2"></p>
                       <p class="correct-answer correct-answer2 hide"></p>

@@ -76,11 +76,11 @@ function displayDiv(ele) {
     if (temp2 == 1) {
       temp1 = 1;
       validation();
-      document.querySelector("#info").innerHTML =
-        "Please enter a value rounded upto three decimal points";
+      // document.querySelector("#info").innerHTML =
+      //   "Please enter a value rounded upto three decimal points";
     } else {
-      document.querySelector("#info").innerHTML =
-        "Perform the experiment to solve the questions";
+      // document.querySelector("#info").innerHTML =
+      ("Perform the experiment to solve the questions");
       document.querySelector(".graph-div").classList.remove("hide");
       document.querySelector(".questions").classList.add("hide");
     }
