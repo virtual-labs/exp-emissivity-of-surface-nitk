@@ -1,0 +1,82 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following statement is correct?",
+      "answers": {
+        "a": "A grey body is one which absorbs all radiations incident on it.",
+        "b": "At thermal equilibrium, the emissivity and absorptivity are same.",
+        "c": "The energy absorbed by a body to the total energy falling on it, is called emissivity.",
+        "d": "A perfect body is one which is black in colour."
+      },
+      "explanations": {
+        "a": "The right answer is (b). A grey body is an object that partially absorbs and partially reflects or transmits electromagnetic radiation.",
+        "b": "Correct, the right answer is (b). According to Kirchhoff's law of thermal radiation, for a body emitting and absorbing thermal radiation in thermodynamic equilibrium, the emissivity is equal to the absorptivity. This means that a good absorber is also a good emitter, and vice versa.",
+        "c": "The right answer is (b). The energy absorbed by a body to the total energy falling on it is called absorptivity, not emissivity.",
+        "d": "The right answer is (b). A perfect body can either be a perfect black or perfect white."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The body which absorbs all radiations incident upon it, is called as",
+      "answers": {
+        "a": "Black body",
+        "b": "White body",
+        "c": "Opaque body",
+        "d": "Transparent body"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). The black body is a type of body which absorbs all radiations incident upon it.",
+        "b": "The right answer is (a). The white body is a type of body which reflects all radiations incident upon it.",
+        "c": "The right answer is (a). An opaque body is a material that does not transmit any incident radiation.",
+        "d": "The right answer is (a). A transparent body is a material that allows the transmission of incident radiation. "
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Emissivity is the measure of an object's ability to absorb, transmit and emit infrared energy.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "The right answer is (b).  Emissivity is the measure of an object's ability to emit infrared energy, not its ability to absorb or transmit it.",
+        "b": "Correct, the right answer is (b).  Emissivity is the measure of an object's ability to emit infrared energy, not its ability to absorb or transmit it."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the equivalent emissivity for radiant heat exchange between a small body (emissivity = 0.4) in a very large enclosure (emissivity = 0.5)?",
+      "answers": {
+        "a": "0.52",
+        "b": "0.4",
+        "c": "0.23",
+        "d": "0.1"
+      },
+      "explanations": {
+        "a": "The right answer is (b). The equivalent emissivity for radiant heat exchange between a small body and a very large enclosure is determined by the emissivity of the small body. This is because the small body is enclosed in the large enclosure, and the surface area ratio of the small body to the large enclosure is approximately zero. Given that the emissivity of the small body (ϵ1) is 0.4, the equivalent emissivity for radiant heat exchange between the small body and the large enclosure is also 0.4.",
+        "b": "Correct, the right answer is (b). The equivalent emissivity for radiant heat exchange between a small body and a very large enclosure is determined by the emissivity of the small body. This is because the small body is enclosed in the large enclosure, and the surface area ratio of the small body to the large enclosure is approximately zero. Given that the emissivity of the small body (ϵ1) is 0.4, the equivalent emissivity for radiant heat exchange between the small body and the large enclosure is also 0.4.",
+        "c": "The right answer is (b). The equivalent emissivity for radiant heat exchange between a small body and a very large enclosure is determined by the emissivity of the small body. This is because the small body is enclosed in the large enclosure, and the surface area ratio of the small body to the large enclosure is approximately zero. Given that the emissivity of the small body (ϵ1) is 0.4, the equivalent emissivity for radiant heat exchange between the small body and the large enclosure is also 0.4.",
+        "d": "The right answer is (b). The equivalent emissivity for radiant heat exchange between a small body and a very large enclosure is determined by the emissivity of the small body. This is because the small body is enclosed in the large enclosure, and the surface area ratio of the small body to the large enclosure is approximately zero. Given that the emissivity of the small body (ϵ1) is 0.4, the equivalent emissivity for radiant heat exchange between the small body and the large enclosure is also 0.4."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "When heat is supplied at a constant rate to a body, heat loss takes place by conduction, convection and radiation.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). When heat is supplied at a constant rate to a body, heat loss can indeed take place through conduction, convection, and radiation. These are the three primary modes of heat transfer.",
+        "b": "The right answer is (a). When heat is supplied at a constant rate to a body, heat loss can indeed take place through conduction, convection, and radiation. These are the three primary modes of heat transfer."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
