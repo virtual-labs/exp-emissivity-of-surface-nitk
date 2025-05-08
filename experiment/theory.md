@@ -1,12 +1,9 @@
 ## INTRODUCTION
 
-<br>
-
 #### User Objectives and Goals:
 
-1)To study properties of black body
-
-2)To determine the emissivity of the test slab
+1. To study properties of black body
+2. To determine the emissivity of the test slab
 
 #### Theory
 
@@ -15,7 +12,7 @@ When heat is supplied at a constant rate to a body, heat loss takes place by con
 <center>
 
 <br>![alt text](images/4.png)<br>
-Fig 1. Experimental setup of Emmisivity measurement apparatus
+Fig 1. Experimental setup of Emmisivity measurement apparatus  
 <br>![alt text](images/5.png)<br>
 Fig 2. Schematic representation of Emmisivity measurement apparatus
 
@@ -23,27 +20,35 @@ Fig 2. Schematic representation of Emmisivity measurement apparatus
 
 <br>The heat loss by radiation depends on:
 
-Characteristic of the material<br>
-Geometry of the surface<br>
-Temperature of the surface<br>
-Rate of heat loss to surrounding air by radiation is given by:<br>
-Q=σ ϵ<sub>1</sub> A<sub>1</sub>(T<sub>1</sub> <sup>4</sup>-T<sub>2</sub> <sup>4</sup>)<br>
-σ = Stefan-Boltzmann constant = -5.67×10<sup>-8</sup> W/m<sup>2</sup>K<sup>4</sup><br>
-A<sub>1</sub> = surface area (m<sup>2</sup>)<br>
-ϵ<sub>1</sub> = emissivity<br>
-T<sub>1</sub> = surface temperature of the body (K)<br>
-T<sub>2</sub> = surrounding atmospheric temperature (K)
+- Characteristic of the material
+- Geometry of the surface
+- Temperature of the surface
 
-#### Equations/formulas:
+Rate of heat loss to surrounding air by radiation is given by:
 
-Temperature of the black body (K)<br>
-T<sub>b</sub>=[(T<sub>1</sub>+T<sub>2</sub>)/2]+273
+$Q=σ ϵ_1 A_1(T_1^4-T_2^4) $  
+$σ$ = Stefan-Boltzmann constant = $-5.67×10^{-8} W/m^2K^4 $  
+$A_1$ = surface area ($m^2$)  
+$ϵ_1$ = emissivity  
+$T_1$ = surface temperature of the body $(K)$  
+$T_2$ = surrounding atmospheric temperature $(K)$
 
-Temperature of the gray body (K)<br>
-T<sub>g</sub>=[(T<sub>3</sub>+T<sub>4</sub>)/2]+273
+#### Equations / formulas:
 
-Chamber air temperature (K)<br>
-T<sub>a</sub>= T<sub>5</sub>+273
+Temperature of the black body $(K)$,
+$T_b = \frac{T_1 + T_2}{2}+273$
 
-Emissivity of test plate (gray body)<br>
-∈ = (T<sub>g</sub> <sup>4</sup>-T<sub>a</sub> <sup>4</sup>)/(T<sub>b</sub> <sup>4</sup>-T<sub>a</sub> <sup>4</sup>) =
+<!-- T<sub>b</sub>=[(T<sub>1</sub>+T<sub>2</sub>)/2]+273 -->
+
+Temperature of the gray body $(K)$,
+$T_g = \frac{T_3 + T_4}{2}+273$
+
+<!-- T<sub>g</sub>=[(T<sub>3</sub>+T<sub>4</sub>)/2]+273 -->
+
+Chamber air temperature $(K)$,
+$T_a= T_5+273$
+
+Emissivity of test plate (gray body),
+$∈ = \frac{T_g^4 - T_a^4}{T_b^4 - T_a^4}+273$
+
+<!-- ∈ = (T<sub>g</sub> <sup>4</sup>-T<sub>a</sub> <sup>4</sup>)/(T<sub>b</sub> <sup>4</sup>-T<sub>a</sub> <sup>4</sup>) = -->
