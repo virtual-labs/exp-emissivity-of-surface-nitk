@@ -2,37 +2,84 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The total radiation from a black body per second per unit area is ________ fourth power of the absolute temperature. This statement is known as Stefan Boltzmann law.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Equal to",
+        "b": "Directly proportional to",
+        "c": "Inversely proportional to",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The right answer is (b). Stefan Boltzmann law states that the total radiation from a black body per second per unit area is directly proportionate to fourth power of the absolute temperature.",
+        "b": "Correct, the right answer is (b). Stefan Boltzmann law states that the total radiation from a black body per second per unit area is directly proportionate to fourth power of the absolute temperature.",
+        "c": "The right answer is (b). Stefan Boltzmann law states that the total radiation from a black body per second per unit area is directly proportionate to fourth power of the absolute temperature.",
+        "d": "The right answer is (b). Stefan Boltzmann law states that the total radiation from a black body per second per unit area is directly proportionate to fourth power of the absolute temperature."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The amount of radiation mainly depends upon the",
+      "answers": {
+        "a": "Nature of the body",
+        "b": "Temperature of the body",
+        "c": "Type of surface of the body",
+        "d": "All of these"
+      },
+      "explanations": {
+        "a": "The right answer is (d). The amount of radiation doesn't only depends upon the nature of the body, but also temperature of the body and type of surface of the body.",
+        "b": "The right answer is (d). The amount of radiation doesn't only depends upon the temperature of the body, but also nature of the body and type of surface of the body.",
+        "c": "The right answer is (d). The amount of radiation doesn't only depends upon the type of surface of the body, but also temperature of the body and nature of the body.",
+        "d": "Correct, the right answer is (d). The amount of radiation mainly depends upon the nature of the body, type of surface of the body and the temperature of the body."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The emissivity for a black body is",
+      "answers": {
+        "a": "0",
+        "b": "0.5",
+        "c": "0.75",
+        "d": "1"
+      },
+      "explanations": {
+        "a": "The right answer is (d). A body with an emissivity of zero is often referred to as a perfect reflector or a white body.",
+        "b": "The right answer is (d). A body with an emissivity of 0.5 is often referred to as a gray body. This means it absorbs and emits only half of the incident radiation compared to a perfect black body.",
+        "c": "The right answer is (d). For example, certain types of brick and fiberglass have an emissivity around 0.753.",
+        "d": "Correct, the right answer is (d). The emissivity of a perfect black body is 1."
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Emissivity is the ratio of the thermal radiation emitted by a surface to the radiation emitted by an _________ at the same temperature.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Ideal gray surface",
+        "b": "Ideal black surface",
+        "c": "Both a & b",
+        "d": "None of the above "
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The right answer is (b). Emissivity is the ratio of the thermal radiation emitted by a surface to the radiation emitted by an Ideal black surface or perfect black surface at the same temperature.",
+        "b": "Correct, the right answer is (b). Emissivity is the ratio of the thermal radiation emitted by a surface to the radiation emitted by an Ideal black surface or perfect black surface at the same temperature.",
+        "c": "The right answer is (b). Emissivity is the ratio of the thermal radiation emitted by only a surface to the radiation emitted by an Ideal black surface or perfect black surface at the same temperature.",
+        "d": "The right answer is (b). Emissivity is the ratio of the thermal radiation emitted by a surface to the radiation emitted by an Ideal black surface or perfect black surface at the same temperature."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Emissivity is a highly material-dependent surface property, which defines the material's capacity to emit energy.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). Emissivity is indeed a highly material-dependent surface property. It defines the material's capacity to emit energy in the form of thermal radiation. Different materials have different emissivities, and this value can also vary based on factors such as temperature, wavelength, and angle of incidence.",
+        "b": "The right answer is (a). Emissivity is indeed a highly material-dependent surface property. It defines the material's capacity to emit energy in the form of thermal radiation. Different materials have different emissivities, and this value can also vary based on factors such as temperature, wavelength, and angle of incidence."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
