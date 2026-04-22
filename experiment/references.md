@@ -12,10 +12,10 @@
     <li><a href="https://www.youtube.com/watch?v=aPfyjVKRPjU">Lecture 52 : Tutorial on Emissivity, Absroptivity and Blackbody Radiation Functions</a></li>
 <td>Developers:<br/> 
     <ul style="list-style-type: none;">
-     <li>Dr. K V Gangadharan | NITK</li> 
      <li>Dr. Parthasarathy P | NITK</li>
+     <li>Dr. K V Gangadharan | NITK</li> 
     </ul>
-    </br> 
+    </br>   
       Contributors :
     <ul style="list-style-type: none;">
     <li>Prasad Mandave | 181ME147 | NITK</li>
