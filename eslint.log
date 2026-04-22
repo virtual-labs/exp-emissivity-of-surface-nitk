@@ -1,0 +1,235 @@
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/MOMscript.js
+   22:10  warning  'point' is defined but never used            no-unused-vars
+   30:10  warning  'pointtrans' is defined but never used       no-unused-vars
+   38:10  warning  'pointdisp' is defined but never used        no-unused-vars
+   88:10  warning  'pointdist' is defined but never used        no-unused-vars
+   94:10  warning  'pointjoin' is defined but never used        no-unused-vars
+  110:10  warning  'pointtrace' is defined but never used       no-unused-vars
+  125:1   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  129:10  warning  'deg' is defined but never used              no-unused-vars
+  139:10  warning  'drawrect' is defined but never used         no-unused-vars
+  159:10  warning  'drawArrow' is defined but never used        no-unused-vars
+  175:10  warning  'signof' is defined but never used           no-unused-vars
+  180:10  warning  'storeCoordinate' is defined but never used  no-unused-vars
+  187:10  warning  'roundd' is defined but never used           no-unused-vars
+  193:10  warning  'plotgraph' is defined but never used        no-unused-vars
+  203:1   warning  'i' is not defined                           no-undef
+  205:7   warning  'i' is not defined                           no-undef
+  207:20  warning  'i' is not defined                           no-undef
+  207:27  warning  'i' is not defined                           no-undef
+  208:2   warning  'i' is not defined                           no-undef
+  209:6   warning  'i' is not defined                           no-undef
+  212:3   warning  'i' is not defined                           no-undef
+  212:5   warning  'i' is not defined                           no-undef
+  220:10  warning  'pointArc' is defined but never used         no-unused-vars
+  238:10  warning  'drawAnchor' is defined but never used       no-unused-vars
+  239:5   warning  'ctx' is not defined                         no-undef
+  240:5   warning  'ctx' is not defined                         no-undef
+  240:37  warning  'PI2' is not defined                         no-undef
+  241:5   warning  'ctx' is not defined                         no-undef
+  242:5   warning  'ctx' is not defined                         no-undef
+  243:5   warning  'ctx' is not defined                         no-undef
+  246:10  warning  'drawAngleSymbol' is defined but never used  no-unused-vars
+  256:7   warning  'a' is already defined                       no-redeclare
+  260:5   warning  'ctx' is not defined                         no-undef
+  261:5   warning  'ctx' is not defined                         no-undef
+  262:5   warning  'ctx' is not defined                         no-undef
+  263:5   warning  'ctx' is not defined                         no-undef
+  264:5   warning  'ctx' is not defined                         no-undef
+  265:5   warning  'ctx' is not defined                         no-undef
+  266:5   warning  'ctx' is not defined                         no-undef
+  268:5   warning  'ctx' is not defined                         no-undef
+  269:5   warning  'ctx' is not defined                         no-undef
+  270:5   warning  'ctx' is not defined                         no-undef
+  271:2   warning  'ctx' is not defined                         no-undef
+  272:5   warning  'ctx' is not defined                         no-undef
+  273:2   warning  'ctx' is not defined                         no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/MOMscript_ver2.js
+   22:10  warning  'point' is defined but never used       no-unused-vars
+   30:10  warning  'pointtrans' is defined but never used  no-unused-vars
+   38:10  warning  'pointdisp' is defined but never used   no-unused-vars
+   88:10  warning  'pointdist' is defined but never used   no-unused-vars
+   94:10  warning  'pointjoin' is defined but never used   no-unused-vars
+  111:10  warning  'pointtrace' is defined but never used  no-unused-vars
+  129:10  warning  'deg' is defined but never used         no-unused-vars
+  139:10  warning  'drawrect' is defined but never used    no-unused-vars
+  159:10  warning  'drawArrow' is defined but never used   no-unused-vars
+  175:10  warning  'signof' is defined but never used      no-unused-vars
+  181:10  warning  'roundd' is defined but never used      no-unused-vars
+  187:10  warning  'plotgraph' is defined but never used   no-unused-vars
+  197:1   warning  'i' is not defined                      no-undef
+  199:7   warning  'i' is not defined                      no-undef
+  201:20  warning  'i' is not defined                      no-undef
+  201:27  warning  'i' is not defined                      no-undef
+  202:2   warning  'i' is not defined                      no-undef
+  203:6   warning  'i' is not defined                      no-undef
+  206:3   warning  'i' is not defined                      no-undef
+  206:5   warning  'i' is not defined                      no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/example.js
+   1:13  warning  'require' is not defined  no-undef
+   7:5   warning  '$A' is not defined       no-undef
+   8:5   warning  '$x' is not defined       no-undef
+   9:5   warning  '$result' is not defined  no-undef
+   9:21  warning  '$A' is not defined       no-undef
+   9:25  warning  '$x' is not defined       no-undef
+  10:17  warning  '$result' is not defined  no-undef
+  19:5   warning  '$A' is not defined       no-undef
+  20:5   warning  '$x' is not defined       no-undef
+  21:5   warning  '$result' is not defined  no-undef
+  21:21  warning  '$A' is not defined       no-undef
+  21:25  warning  '$x' is not defined       no-undef
+  22:17  warning  '$result' is not defined  no-undef
+  33:5   warning  '$A' is not defined       no-undef
+  34:5   warning  '$x' is not defined       no-undef
+  35:5   warning  '$result' is not defined  no-undef
+  35:21  warning  '$A' is not defined       no-undef
+  35:25  warning  '$x' is not defined       no-undef
+  36:17  warning  '$result' is not defined  no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/gauss-jordan.js
+   25:16  warning  'i' is already defined    no-redeclare
+  110:12  warning  'i' is already defined    no-redeclare
+  124:1   warning  'exports' is not defined  no-undef
+  147:1   warning  'exports' is not defined  no-undef
+  151:8   warning  'exports' is not defined  no-undef
+  154:12  warning  'module' is not defined   no-undef
+  154:41  warning  'module' is not defined   no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/gauss.js
+  71:1  warning  'module' is not defined  no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/graph_line_use.ob.js
+  1:105  warning  'graphline' is defined but never used  no-unused-vars
+  1:165  warning  'CanvasJS' is not defined              no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/graph_use.ob.js
+  13:10  warning  'drawgraph' is defined but never used  no-unused-vars
+  14:21  warning  'CanvasJS' is not defined              no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/graph_use2.ob.js
+  12:10  warning  'drawgraph2' is defined but never used  no-unused-vars
+  22:21  warning  'CanvasJS' is not defined               no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/jquery-3.6.0.js
+     17:44  warning  'module' is not defined                                                    no-undef
+     25:5   warning  'module' is not defined                                                    no-undef
+    142:13  warning  'Symbol' is already defined as a built-in global variable                  no-redeclare
+    717:22  warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+    779:50  warning  Empty block statement                                                      no-empty
+   2185:38  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3205:16  warning  Unnecessary escape character: \/                                           no-useless-escape
+   3507:52  warning  Empty block statement                                                      no-empty
+   4584:21  warning  Empty block statement                                                      no-empty
+   5051:28  warning  Unnecessary escape character: \/                                           no-useless-escape
+   5268:19  warning  Empty block statement                                                      no-empty
+   6564:25  warning  Empty block statement                                                      no-empty
+   9171:17  warning  Empty block statement                                                      no-empty
+   9819:28  warning  'urlAnchor.href' is assigned to itself                                     no-self-assign
+  10269:17  warning  Empty block statement                                                      no-empty
+  11162:39  warning  'define' is not defined                                                    no-undef
+  11163:5   warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/jquery.min.js
+  1:1519   warning  Empty block statement                                                      no-empty
+  1:6093   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:7141   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:7562   warning  Empty block statement                                                      no-empty
+  1:7638   warning  Empty block statement                                                      no-empty
+  1:8651   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:10008  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:11116  warning  Unnecessary escape character: \/                                           no-useless-escape
+  1:15261  warning  'ActiveXObject' is not defined                                             no-undef
+  1:17795  warning  Empty block statement                                                      no-empty
+  1:27398  warning  Empty block statement                                                      no-empty
+  1:27718  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:28140  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:28499  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:30610  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:4821   warning  Empty block statement                                                      no-empty
+  2:7463   warning  Empty block statement                                                      no-empty
+  2:13288  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13304  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13793  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:14025  warning  Empty block statement                                                      no-empty
+  2:15171  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15264  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15324  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16527  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:17050  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:17164  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19349  warning  Unnecessary escape character: \=                                           no-useless-escape
+  2:19648  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21727  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23092  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23207  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23666  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23703  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24141  warning  Empty block statement                                                      no-empty
+  2:24334  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24646  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24953  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:26696  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:26933  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:27417  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:28090  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:30228  warning  Unnecessary escape character: \[                                           no-useless-escape
+  2:30230  warning  Unnecessary escape character: \.                                           no-useless-escape
+  3:4704   warning  Empty block statement                                                      no-empty
+  3:7719   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:7844   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:9957   warning  Empty block statement                                                      no-empty
+  3:13978  warning  Unnecessary escape character: \/                                           no-useless-escape
+  3:16544  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:18435  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:21176  warning  Empty block statement                                                      no-empty
+  3:28773  warning  'define' is not defined                                                    no-undef
+  3:28785  warning  'define' is not defined                                                    no-undef
+  3:28804  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/jquery.ui.touch-punch.js
+  174:4  warning  'jQuery' is not defined  no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/jquery.ui.touch-punch.min.js
+  81:4  warning  'jQuery' is not defined  no-undef
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/plot.js
+   32:10  warning  'MakeDraw' is defined but never used  no-unused-vars
+   52:5   warning  'spac' is already defined             no-redeclare
+   80:10  warning  'i' is already defined                no-redeclare
+  136:10  warning  'i' is already defined                no-redeclare
+  136:15  warning  'len' is already defined              no-redeclare
+  147:11  warning  'i' is already defined                no-redeclare
+  147:16  warning  'len' is already defined              no-redeclare
+  158:12  warning  'i' is already defined                no-redeclare
+  158:17  warning  'len' is already defined              no-redeclare
+  162:12  warning  'i' is already defined                no-redeclare
+  163:4   warning  'j' is not defined                    no-undef
+  164:28  warning  'j' is not defined                    no-undef
+  164:43  warning  'j' is not defined                    no-undef
+  169:11  warning  'i' is already defined                no-redeclare
+
+/home/runner/work/exp-emissivity-of-surface-nitk/exp-emissivity-of-surface-nitk/experiment/simulation/js/script.js
+   12:7   warning  'btnCheck1' is assigned a value but never used  no-unused-vars
+   25:5   warning  'v' is assigned a value but never used          no-unused-vars
+   32:5   warning  'time' is assigned a value but never used       no-unused-vars
+   41:5   warning  'slope' is assigned a value but never used      no-unused-vars
+   46:5   warning  'temp1' is assigned a value but never used      no-unused-vars
+   48:5   warning  'tempslope' is assigned a value but never used  no-unused-vars
+   49:5   warning  'tempk' is assigned a value but never used      no-unused-vars
+   51:10  warning  'displayDiv' is defined but never used          no-unused-vars
+  132:10  warning  'simperiod' is defined but never used           no-unused-vars
+  246:10  warning  'comment1' is defined but never used            no-unused-vars
+  318:3   warning  'datapoints' is not defined                     no-undef
+  329:5   warning  'e' is not defined                              no-undef
+  332:5   warning  'e' is not defined                              no-undef
+  335:5   warning  'e' is not defined                              no-undef
+  350:37  warning  'e' is not defined                              no-undef
+  356:80  warning  'e' is not defined                              no-undef
+  398:10  warning  'movetoTop' is defined but never used           no-unused-vars
+  399:3   warning  'practiceDiv' is not defined                    no-undef
+
+✖ 204 problems (0 errors, 204 warnings)
+
